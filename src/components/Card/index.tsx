@@ -40,7 +40,7 @@ export function Card({ task, setDone, onRemove }: Props) {
         <Text style={styles.cardTitle}>{task}</Text>
       ) : (
         <Text
-          style={[styles.cardTitle, { textDecorationLine: "line-through" }]}
+          style={[styles.cardTitle, { textDecorationLine: "line-through" }]}   
         >
           {task}
         </Text>
